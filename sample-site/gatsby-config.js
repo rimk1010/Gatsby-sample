@@ -1,3 +1,5 @@
+const { resolve } = require("path");
+
 module.exports = {
   siteMetadata: {
     title: `ヤースペーステクノロジー`,
@@ -12,7 +14,12 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+      options:{
+        name:`information`,
+        path:`${__dirname}/src/content/information`,
+      },
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

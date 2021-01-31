@@ -16,17 +16,17 @@ const Header = ({ siteTitle }) => (
             会社概要
           </Nav.Link>
         </NavItem>
-        <NavItem href="/about">
+        <NavItem href="/jigyo">
           <Nav.Link as={Link} activeClassName="active" to="/jigyo">
             事業内容
           </Nav.Link>
         </NavItem>
-        <NavItem href="/about">
+        <NavItem href="/information">
           <Nav.Link as={Link} activeClassName="active" to="/information">
             インフォメーション
           </Nav.Link>
         </NavItem>
-        <NavItem href="/about">
+        <NavItem href="/contact">
           <Nav.Link as={Link} activeClassName="active" to="/contact">
             お問い合わせ
           </Nav.Link>
