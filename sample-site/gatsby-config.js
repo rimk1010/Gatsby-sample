@@ -40,6 +40,16 @@ module.exports = {
         includePaths: [require("path").resolve(__dirname, "node_modules")],
       },
     },
+    {
+      resolve:'gatsby-source-microcms',
+      options:{
+        apiKey:'017751e2-1531-41a6-9f0c-0f3612404e83',
+        serviceId:'gatsby-sample1111',
+        apis:[{
+          endpoint:'information',
+        }],
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
